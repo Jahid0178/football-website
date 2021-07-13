@@ -66,6 +66,7 @@ nav {
     padding: 0 18px;
     text-decoration: none;
     text-transform: capitalize;
+    transition: 0.5s ease;
 }
 
 .main-nav li a:hover {
@@ -74,7 +75,6 @@ nav {
 
 .login {
     color: #fff;
-    
     background-color: #E02C6D;
 }
 
@@ -123,14 +123,25 @@ nav {
     background-color: transparent;
 }
 
+.fa-arrow-right {
+    margin-left: 8px;
+}
+
 .main-banner-image {
     width: 50%;
     height: 70vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 }
 
 .main-banner-image .banner-img {
     width: 85%;
+    position: absolute;
+    transition: 0.8s ease-in;
+}
+
+.banner-img:hover {
+    transform: scale(1.04) translate(-25px, -10px);
 }
