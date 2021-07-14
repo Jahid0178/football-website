@@ -238,6 +238,19 @@ nav {
     font-size: 30px;
 }
 
+.highlight-watch-link {
+    background: #E02C6D;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.highlight-watch-link:hover {
+    padding: 8px 22px;
+    border: 2px solid #E02C6D;
+    background: transparent;
+    color: #E02C6D;
+}
+
 .highlight-image {
     width: 50%;
 }
