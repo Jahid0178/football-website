@@ -99,6 +99,10 @@
         font-size: 30px;
     }
 
+    .highlight-watch-link {
+        margin: 20px 0;
+    }
+
     .highlight-image {
         width: 100%;
         display: flex;
