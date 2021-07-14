@@ -188,32 +188,20 @@ nav {
 }
 
 /*------------------------------------
-    Training Camp Section Start
+        Sponsor Section Start
 -------------------------------------*/
 
-.training-camp {
+.sponsors {
     width: 100%;
-    height: 100vh;
-    background-image: url(images/training-camp.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    /* background-attachment: fixed; */
+    height: 40vh;
+    background: #E2E2E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.camp-join-link {
-    position: absolute;
-    right: 50px;
-    bottom: 50px;
-    background-color: #E02C6D;
-}
-
-.camp-join-link:hover {
-    padding: 8px 22px;
-    background: transparent;
-    color: #E02C6D;
-    border: 2px solid #E02C6D;
+.sponsors img {
+    width: 180px;
 }
 
 /*------------------------------------
@@ -228,107 +216,35 @@ nav {
     align-items: center;
 }
 
-.hightlight {
-    width: 100%;
+.highlight-container {
     height: 70vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-.hightlight-content {
-    width: 45%;
+.highlight-content {
+    width: 50%;
 }
 
-.hightlight-header {
+.highlight-header {
     color: #0A0826;
     font-size: 48px;
     line-height: 60px;
 }
 
-.hightlight-player {
-    color: #FF4588;
-    font-size: 20px;
-    padding: 10px 0;
-}
-
-.hightlight-watch-link {
-    margin-top: 24px;
-    display: inline-block;
-    background: #E02C6D;
-}
-
-.hightlight-watch-link:hover {
+.highlight-player {
     color: #E02C6D;
-    padding: 8px 22px;
-    background: transparent;
-    border: 2px solid #E02C6D;
+    font-size: 30px;
 }
 
-.hightlight-image {
+.highlight-image {
     width: 50%;
-    display: flex;
-    justify-content: center;
 }
 
-.lightlight-player {
+.highlight-image img {
     width: 80%;
-}
-
-/*------------------------------------
-    Stadium Location Section Start
--------------------------------------*/
-
-.find-stadium {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(images/stadium.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-}
-
-.stadium-info {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-}
-
-.stadium-map {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.stadium-details {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.stadium-header {
-    font-size: 28px;
-    padding: 10px 0;
-    color: #cdcdcd;
-    cursor: pointer;
-}
-
-.stadium-header:hover {
-    color: #6B6B6B;
-}
-
-.location-details {
-    color: #fff;
-}
-
-.stadium-location {
-    margin-top: 50px;
-    background-color: #E02C6D;
+    margin-left: 50px;
 }
 
 /*------------------------------------
@@ -344,50 +260,30 @@ footer {
     flex-direction: column;
 }
 
-.footer-logo {
+footer img {
     width: 483px;
-    height: 110px;
 }
 
-.social-links {
+footer ul {
     list-style: none;
+    margin-bottom: 20px;
 }
 
-.social-links li {
+footer ul li {
     display: inline-block;
-
+    margin-left: 10px;
 }
 
-.social-links li a {
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li a {
     width: 32px;
     height: 32px;
-    padding: 5px 8px;
-    background: #E7E7E8;
-    border-radius: 50%;
-    margin: 14x;
-}
-.social-link {
+    padding: 5px 10px;
     color: #969BAB;
-    font-size: 17px;
-    transition: 0.8s;
-}
-
-.copyright {
-    margin-top: 20px;
-}
-
-.fa-instagram:hover {
-    color: #3f729b;
-}
-
-.fa-dribbble:hover {
-    color: #ea4c89;
-}
-
-.fa-twitter:hover {
-    color: #00acee;
-}
-
-.fa-youtube:hover {
-    color: #FF0000;
+    background: #ECECEC;
+    border-radius: 50%;
+    border: 2px solid;
 }
